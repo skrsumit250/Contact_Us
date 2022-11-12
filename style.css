@@ -56,19 +56,26 @@ input{
     margin-bottom: 20px;
     outline: none;
     border-radius: 7px;
+    padding: 5px;
 }
-.btn{
-    width: 15vh;
-    height: 5vh;
-    border: 7px;
-    background-color: red;
-    
-}
+.button {
+    width: 7rem;
+    background-color: #f4511e;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: .3rem 0 .3rem;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {opacity: 1}
 
-.btn:hover{
-    background-color: white;
-    transition-duration: 0.3s;
-}
 p{  
     margin: 0px;
     /* padding: 5px; */
